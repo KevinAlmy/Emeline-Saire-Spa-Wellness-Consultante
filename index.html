@@ -308,6 +308,11 @@
     .hero-photo{ width:80vw; }
   }
 
+  @media (max-width:600px){
+    .hero-cta{ flex-direction:column; align-items:stretch; }
+    .btn:not(.sticky-cta){ width:100%; justify-content:center; }
+  }
+
   /* ---------- PAGE 02 — POSITIONNEMENT ---------- */
   .pillars{ display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
   .pillar{ background:var(--paper); padding:44px 40px; }
